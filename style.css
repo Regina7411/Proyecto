@@ -241,3 +241,173 @@ body {
     width: 100%;
     height: auto;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background:  #ece7e7; /* gris */
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+  border-bottom: 1px solid #ccc; /* opcional, un gris más oscuro para el borde */
+}
+
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Home Page Styles */
+.main-image-section {
+  padding-top: 80px; /* Adjust based on navbar height */
+  text-align: center;
+}
+
+.main-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.content-section {
+  display: flex;
+  padding: 50px;
+  gap: 50px;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.content-left {
+  flex: 1;
+  padding-right: 50px;
+}
+
+.content-left h2 {
+  font-family: 'Lora', serif;
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #333;
+}
+
+.content-right {
+  flex: 1;
+  border-left: 1px solid #ccc;
+  padding-left: 50px;
+}
+
+.content-right p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 0.9rem;
+}
+
+/* Iconos como botones */
+.icons {
+  display: flex;
+  gap: 15px;
+}
+
+.icon-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.icon-btn img {
+  width: 25px;
+  height: 25px;
+  transition: transform 0.2s;
+}
+
+.icon-btn img:hover {
+  transform: scale(1.1);
+}
+
+/* Hero */
+.hero {
+  background: url('img/mueble1.jpg') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  color: white;
+  padding: 0 20px;
+}
+
+.hero-content {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 20px 40px;
+  border-radius: 10px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.hero p {
+  margin: 10px 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: white;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+/* Intro section */
+.intro {
+  text-align: center;
+  padding: 60px 20px;
+  background: #f9f9f9;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.intro h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
