@@ -547,3 +547,548 @@ body {
   color: #555;
   margin-bottom: 20px;
 }
+/* Nosotros Page Styles */
+.about-container {
+  padding-top: 80px; /* Adjust for fixed navbar */
+}
+
+.about-section {
+  display: flex;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 50px;
+  gap: 50px;
+}
+
+.about-content {
+  flex: 1;
+  padding-right: 50px;
+}
+
+.about-content h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.about-content p {
+  font-family: 'Lora', serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.about-image {
+  flex: 1;
+}
+
+.about-image img {
+  width: 100%;
+  height: auto;
+}
+
+/* Feature Sections */
+.feature-section {
+  display: flex;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 50px;
+  gap: 50px;
+}
+
+.feature-section.feature-reverse {
+  flex-direction: row-reverse;
+}
+
+.feature-image {
+  flex: 1;
+}
+
+.feature-image img {
+  width: 100%;
+  height: auto;
+}
+
+.feature-content {
+  flex: 1;
+  text-align: center;
+  padding: 0 50px;
+}
+
+.feature-content h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.feature-content p {
+  font-family: 'Lora', serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+}
+/* Gallery Page Styles */
+.gallery-section {
+  padding: 120px 50px 50px; /* Extra top padding for fixed navbar */
+  max-width: 1400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.gallery-title {
+  font-family: 'Lora', serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin-bottom: 50px;
+  color: #333;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+* Nosotros Page Styles */
+.nosotros-hero {
+  background: url('img/mueble1.jpg') no-repeat center center/cover;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  position: relative;
+  margin-top: 80px; /* Offset for fixed navbar */
+}
+
+.nosotros-hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4); /* Dark overlay */
+}
+
+.nosotros-hero-content {
+  position: relative;
+}
+
+.nosotros-hero-content h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.about-section-combined {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 50px;
+  gap: 50px;
+}
+
+.about-content-combined {
+  flex: 1;
+  padding-right: 50px;
+}
+
+.about-content-combined p {
+  font-family: 'Lora', serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.about-image-combined {
+  flex: 1;
+}
+
+.about-image-combined img {
+  width: 100%;
+  height: auto;
+}
+
+/* Feature Sections */
+.feature-section {
+  display: flex;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 50px;
+  gap: 50px;
+}
+
+.feature-section.feature-reverse {
+  flex-direction: row-reverse;
+}
+
+.feature-image {
+  flex: 1;
+}
+
+.feature-image img {
+  width: 100%;
+  height: auto;
+}
+
+.feature-content {
+  flex: 1;
+  text-align: center;
+  padding: 0 50px;
+}
+
+.feature-content h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.feature-content p {
+  font-family: 'Lora', serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+}
+
+/* Gallery Page Styles */
+.gallery-section {
+  padding: 120px 50px 50px; /* Extra top padding for fixed navbar */
+  max-width: 1400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.gallery-title {
+  font-family: 'Lora', serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin-bottom: 50px;
+  color: #333;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.gallery-item {
+  text-align: center;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.05);
+}
+
+.gallery-item h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-top: 15px;
+  color: #444;
+}
+
+/* Home Page Styles */
+.main-image-section {
+  padding-top: 80px; /* Adjust based on navbar height */
+  text-align: center;
+}
+
+.main-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.content-section {
+  display: flex;
+  padding: 50px;
+  gap: 50px;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.content-left {
+  flex: 1;
+  padding-right: 50px;
+}
+
+.content-left h2 {
+  font-family: 'Lora', serif;
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #333;
+}
+
+.content-right {
+  flex: 1;
+  border-left: 1px solid #ccc;
+  padding-left: 50px;
+}
+
+.content-right p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Nosotros Page Styles */
+.hero-nosotros {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/7.png') no-repeat center center/cover;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-nosotros-content h2 {
+  font-family: 'Lora', serif;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.hero-nosotros-content h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+.nosotros-content {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.nosotros-content p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  line-height: 2;
+  color: #333;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.nosotros-esencia {
+  padding: 60px 20px;
+  text-align: left;       /* Alineado a la izquierda */
+  max-width: 800px;       /* Para que no ocupe todo el ancho */
+  margin: 0 auto;         /* Centrado del bloque en pantalla */
+}
+
+.nosotros-esencia h2 {
+  font-family: 'Lora', serif;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #111;
+}
+
+.nosotros-esencia p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  line-height: 2;
+  color: #333;
+}
+.nosotros-historia {
+  background-color: #d9d8ce; /* gris claro elegante */
+  padding: 60px 20px;
+  max-width: 1100px;
+  margin: 60px auto; /* centrado con espacio superior e inferior */
+  text-align: left; /* alineado a la izquierda */
+  border-radius: 4px; /* opcional: esquinas suaves */
+}
+
+.nosotros-historia h3 {
+  font-family: 'Lora', serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+  color: #111;
+}
+
+.nosotros-historia h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.nosotros-historia p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #333;
+  max-width: 800px;
+  margin-bottom: 30px;
+}
+
+.btn-historia {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #fff;
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+.btn-historia:hover {
+  background-color: #000;
+  color: #fff;
+}
+/* Colecciones Page Styles */
+.main-content {
+  padding-top: 80px; /* Adjust based on navbar height */
+}
+
+.collections-header {
+  text-align: left;
+  padding: 50px 50px 30px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.collections-header p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  color: #666;
+}
+
+.collections-header h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+  color: #333;
+  margin: 0;
+}
+
+.collections-header h2 {
+  font-family: 'Lora', serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #333;
+  margin-top: 10px;
+}
+
+.collections-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  padding: 0 50px 80px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.collection-item {
+  text-align: left;
+}
+
+.collection-item img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.item-caption h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.item-caption a {
+  font-family: 'Lora', serif;
+  font-size: 1rem;
+  color: #333;
+  text-decoration: none;
+  padding-bottom: 3px;
+  border-bottom: 1px solid #333;
+}
+
+.cta-section-collections {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #EAEAEA;
+  margin: 0 50px 80px;
+  max-width: 1400px;
+  margin: 0 auto 80px;
+}
+
+.cta-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cta-content-collections {
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cta-content-collections .cta-subtitle {
+  font-family: 'Lora', serif;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.cta-content-collections h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+  margin: 10px 0 20px;
+}
+
+.cta-content-collections p {
+  font-family: 'Lora', serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.btn-cta-collections {
+  display: inline-block;
+  padding: 12px 25px;
+  background: #C4B4A4;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  text-align: center;
+  align-self: flex-start;
+}
