@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CADIMA - Inspírate</title>
+  <!-- Favicon -->
+  <link rel="icon" href="img/logo cadima.png" type="image/x-icon">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+  
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <!-- Navbar -->
   <header class="navbar">
@@ -35,8 +43,8 @@
   <!-- Sección Inspírate -->
   <section class="inspirate">
     <h2>Inspirate</h2>
-    <p>Explora nuestras guías, descubre las últimas tendencias en diseño, conoce a nuestros creadores y 
-    déjate inspirar por proyectos de interiores que reflejan el lujo atemporal de Cadima.</p>
+    <p>Explora nuestras guías, descubre las últimas tendencias en diseño, conoce a nuestros creadores y
+      déjate inspirar por proyectos de interiores que reflejan el lujo atemporal de Cadima.</p>
 
     <div class="grid-cards">
       <div class="card">
@@ -44,7 +52,9 @@
         <div class="card-text">
           <h3>Tendencias de temporada</h3>
           <p>Transforma tu espacio con las últimas tendencias en decoración de interiores</p>
-          <a href="#">Explora los sofás</a>
+          <div class="card-link-container">
+            <a href="#">Explora los sofás</a>
+          </div>
         </div>
       </div>
 
@@ -53,7 +63,9 @@
         <div class="card-text">
           <h3>Tendencias de temporada</h3>
           <p>Transforma tu espacio con las últimas tendencias en decoración de interiores</p>
+          <div class="card-link-container">
           <a href="#">Explora los sofás</a>
+          </div>
         </div>
       </div>
 
@@ -61,8 +73,11 @@
         <img src="img/inspirate/que telas debes elegir inspirate.webp" alt="Telas que debes elegir">
         <div class="card-text">
           <h3>Telas que debes elegir</h3>
-          <p>Los colores con los que te rodeas no son solo una elección de diseño, también son un reflejo de tus experiencias personales</p>
+          <p>Los colores con los que te rodeas no son solo una elección de diseño, también son un reflejo de tus
+            experiencias personales</p>
+            <div class="card-link-container">
           <a href="#">Explora los sofás</a>
+          </div>
         </div>
       </div>
     </div>
@@ -70,23 +85,20 @@
 
   <!-- Sección Encuentra tu diseño -->
   <section class="diseno">
-    <div class="diseno-img">
-      <img src="img/inspirate/encuentra tu diseño ideal inspirate.webp" alt="Encuentra tu diseño ideal">
+    <div class="video-container">
+     <video controls>
+      <source src="img/videos/video 1.mp4" type="video/mp4">
+    </video>
     </div>
     <div class="diseno-text">
       <h2>Encuentra tu diseño ideal</h2>
-      <p>El tamaño de la cama y del espacio servirán de guía para el diseño. Para las habitaciones más pequeñas, se recomienda una cama centrada en la pared trasera; las grandes lucen mejor con una sutil zonificación, como una silla de lectura o un pequeño escritorio para dividir el espacio.</p>
+      <p>El tamaño de la cama y del espacio servirán de guía para el diseño. Para las habitaciones más pequeñas, se
+        recomienda una cama centrada en la pared trasera; las grandes lucen mejor con una sutil zonificación, como una
+        silla de lectura o un pequeño escritorio para dividir el espacio.</p>
       <button>Nuestros decoradores de interiores pueden ayudarte</button>
     </div>
   </section>
-  <!-- SECCIÓN AYUDA -->
-  <section class="help">
-    <h2>Permítenos ayudarte sin compromiso</h2>
-    <p>Hemos ayudado a miles de clientes felices. Nuestra experiencia en diseño de espacios, en colores,
-      materiales y texturas te ayuda a transformar tu hogar y a que juntos creemos espacios extraordinarios.
-      Llena el formulario y agendaremos una cita sin compromiso.</p>
-    <button>Contáctanos</button>
-  </section>
+
   <!--FROMULARIO-->
   <section class="contacto">
     <div class="texto">
@@ -98,12 +110,16 @@
     </div>
 
     <form class="formulario">
-      <input type="text" placeholder="Nombre :" required>
-      <input type="text" placeholder="Apellidos:" required>
-      <input type="email" placeholder="Correo electrónico:" required>
-      <textarea rows="4" placeholder="Indícanos dónde quieres que nos reunamos - en tienda, virtualmente o en tu hogar - y qué tipo de mobiliario o diseño estás buscando"></textarea>
+      <input type="text" placeholder="Nombre " required>
+      <input type="text" placeholder="Apellidos" required>
+      <input type="email" placeholder="Correo electrónico" required>
+      <textarea rows="4"
+        placeholder="Indícanos dónde quieres que nos reunamos - en tienda, virtualmente o en tu hogar - y qué tipo de mobiliario o diseño estás buscando"></textarea>
+        <button class="btn-discover-more">Enviar</button>
     </form>
+    
   </section>
+
   <!-- Footer -->
   <footer class="footer">
     <div class="footer-header">
@@ -125,17 +141,14 @@
         <h3>UBICACIÓN</h3>
         <p>Av. Jorge Jimenez Cantú #241 Santa María Atarasquillo, Lerma Estado de México, 52044</p>
       </div>
-         <!-- Mapa -->
-  <iframe 
-  src="https://www.google.com/maps?q=And.+Jorge+Jiménez+Cantú+241-MZ+007,+Santa+María+Atarasquillo,+52044+Méx.&output=embed"
-  width="600" 
-  height="200" 
-  frameborder="0" 
-  allowfullscreen="" 
-  loading="lazy">
-</iframe>
+      <!-- Mapa -->
+      <iframe
+        src="https://www.google.com/maps?q=And.+Jorge+Jiménez+Cantú+241-MZ+007,+Santa+María+Atarasquillo,+52044+Méx.&output=embed"
+        width="600" height="200" frameborder="0" allowfullscreen="" loading="lazy">
+      </iframe>
     </div>
   </footer>
 
 </body>
+
 </html>
